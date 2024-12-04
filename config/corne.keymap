@@ -75,10 +75,10 @@
             //                                                      enter
 
             bindings = <
-&lt 3 ESC    &kp Q           &kp W           &kp E            &kp R            &kp T           &kp UP_ARROW     &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB      &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D      &hm LSHFT F      &kp G           &kp DOWN_ARROW   &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&lt 3 GRAVE  &kp Z           &kp X           &kp C            &kp V            &kp B           &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                             &kp RETURN      &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 1 RETURN    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &kp RALT
+&lt 3 ESC    &kp Q           &kp W           &kp E            &kp R            &kp T           &kp UP_ARROW     &kp Y        &kp U            &kp I         &kp O       &kp P          &kp BSPC
+&kp TAB      &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D      &hm LSHFT F      &kp G           &kp DOWN_ARROW   &kp H        &hm RSHFT J      &hm RCTRL K   &hm RALT L  &hm RGUI SEMI  &kp SQT
+&lt 3 GRAVE  &kp Z           &kp X           &kp C            &kp V            &kp B           &kp LEFT_ARROW   &kp N        &kp M            &kp COMMA     &kp DOT     &kp FSLH       &kp BACKSLASH
+                             &kp RETURN      &lt 2 BACKSPACE  &mt LSHFT SPACE  &lt 1 RETURN    &kp RIGHT_ARROW  &lt 1 ENTER  &mt RSHFT SPACE  &lt 2 DELETE
                                                                                                &kp ENTER
             >;
 
