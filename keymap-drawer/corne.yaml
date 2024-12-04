@@ -196,3 +196,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
+combos:
+- p: [1, 2]
+  k: $$mdi:keyboard-esc$$
+- p: [36, 37]
+  k: {t: ;, s: ':'}
