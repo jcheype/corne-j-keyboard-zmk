@@ -90,6 +90,20 @@
 
             label = "SCREENSHOT";
         };
+
+        video: video {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LGUI &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp NUMBER_5>,
+                <&macro_release>,
+                <&kp LGUI &kp LEFT_SHIFT>;
+
+            label = "VIDEO";
+        };
     };
 
     keymap {
