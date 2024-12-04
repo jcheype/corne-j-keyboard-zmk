@@ -12,6 +12,8 @@
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
 
+&lt { quick-tap-ms = <200>; };
+
 / {
     behaviors {
         td0: td0 {
@@ -58,6 +60,20 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <30>;
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <36 37>;
+        };
     };
 
     keymap {
@@ -124,7 +140,7 @@
             >;
 
             label = "SYMBOL";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
         };
 
         layer_3 {
