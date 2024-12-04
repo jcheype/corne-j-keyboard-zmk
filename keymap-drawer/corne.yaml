@@ -41,15 +41,15 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - RETURN
-  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: RETURN, h: NUMBER}
+  - {t: RETURN, h: SYMBOL}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SYMBOL}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  NUMBER:
+  SYMBOL:
   - {t: '-', s: _}
   - '!'
   - '@'
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  SYMBOL:
+  NUMBER:
   - +
   - {t: /, s: '?'}
   - KP 7
