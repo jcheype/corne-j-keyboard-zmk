@@ -74,6 +74,11 @@
             bindings = <&kp SEMI>;
             key-positions = <36 37>;
         };
+
+        hyper {
+            bindings = <&kp RS(RA(RC(RIGHT_GUI)))>;
+            key-positions = <44 45 46>;
+        };
     };
 
     macros {
