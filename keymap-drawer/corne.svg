@@ -570,6 +570,14 @@ rect.held, rect.combo.held {
 <text x="812" y="179" class="combo tap">;</text>
 <text x="812" y="168" class="combo shifted">:</text>
 </g>
+<g class="combo combopos-2">
+<path d="M608,276 l-48,17" class="combo"/>
+<path d="M608,276 l47,-17" class="combo"/>
+<rect rx="6" ry="6" x="594" y="263" width="28" height="26" class="combo"/>
+<text x="608" y="276" class="combo tap">
+<tspan x="608" dy="-0.6em" style="font-size: 60%">Sft+AGr+C…</tspan><tspan x="608" dy="1.2em" style="font-size: 60%">…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 405)" class="layer-SYMBOL">
@@ -849,6 +857,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="166" width="28" height="26" class="combo"/>
 <text x="812" y="179" class="combo tap">;</text>
 <text x="812" y="168" class="combo shifted">:</text>
+</g>
+<g class="combo combopos-2">
+<path d="M608,276 l-48,17" class="combo"/>
+<path d="M608,276 l47,-17" class="combo"/>
+<rect rx="6" ry="6" x="594" y="263" width="28" height="26" class="combo"/>
+<text x="608" y="276" class="combo tap">
+<tspan x="608" dy="-0.6em" style="font-size: 60%">Sft+AGr+C…</tspan><tspan x="608" dy="1.2em" style="font-size: 60%">…</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1132,6 +1148,14 @@ rect.held, rect.combo.held {
 <text x="812" y="179" class="combo tap">;</text>
 <text x="812" y="168" class="combo shifted">:</text>
 </g>
+<g class="combo combopos-2">
+<path d="M608,276 l-48,17" class="combo"/>
+<path d="M608,276 l47,-17" class="combo"/>
+<rect rx="6" ry="6" x="594" y="263" width="28" height="26" class="combo"/>
+<text x="608" y="276" class="combo tap">
+<tspan x="608" dy="-0.6em" style="font-size: 60%">Sft+AGr+C…</tspan><tspan x="608" dy="1.2em" style="font-size: 60%">…</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1216)" class="layer-FN">
@@ -1393,6 +1417,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="166" width="28" height="26" class="combo"/>
 <text x="812" y="179" class="combo tap">;</text>
 <text x="812" y="168" class="combo shifted">:</text>
+</g>
+<g class="combo combopos-2">
+<path d="M608,276 l-48,17" class="combo"/>
+<path d="M608,276 l47,-17" class="combo"/>
+<rect rx="6" ry="6" x="594" y="263" width="28" height="26" class="combo"/>
+<text x="608" y="276" class="combo tap">
+<tspan x="608" dy="-0.6em" style="font-size: 60%">Sft+AGr+C…</tspan><tspan x="608" dy="1.2em" style="font-size: 60%">…</tspan>
+</text>
 </g>
 </g>
 </g>

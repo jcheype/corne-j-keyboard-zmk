@@ -201,3 +201,5 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [36, 37]
   k: {t: ;, s: ':'}
+- p: [44, 45, 46]
+  k: Sft+AGr+Ctl+ RIGHT GUI
